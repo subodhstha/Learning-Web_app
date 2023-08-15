@@ -1,0 +1,17 @@
+%message{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.warning{
+    @extend %message;
+    background-color: brown;
+}
+.danger{
+    @extend %message;
+    background-color: red;
+}
+
